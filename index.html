@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderly - Explore in Colors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🌍 Wanderly</div>
+    <nav class="nav">
+      <a href="#destinations">Destinations</a>
+      <a href="#planner">Planner</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Discover the World in Colors</h1>
+      <p>Let vibrant experiences shape your journey.</p>
+      <button onclick="scrollToPlanner()">Start Planning</button>
+    </div>
+  </section>
+
+  <section id="destinations" class="destinations">
+    <h2>Top Destinations</h2>
+    <div class="cards">
+      <div class="card" style="background-color: #FFB6C1;">
+        <h3>Paris, France</h3>
+        <p>The romantic city of lights awaits you!</p>
+      </div>
+      <div class="card" style="background-color: #FFD700;">
+        <h3>Bali, Indonesia</h3>
+        <p>Golden beaches and lush jungles beckon.</p>
+      </div>
+      <div class="card" style="background-color: #ADD8E6;">
+        <h3>Tokyo, Japan</h3>
+        <p>Immerse yourself in a futuristic cultural blend.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planner" class="planner">
+    <h2>Plan Your Colorful Journey</h2>
+    <form id="plannerForm">
+      <label for="destination">Where to?</label>
+      <input type="text" id="destination" placeholder="Enter a destination" required>
+      
+      <label for="date">When?</label>
+      <input type="date" id="date" required>
+      
+      <button type="submit">Create My Plan</button>
+    </form>
+    <p id="plannerOutput"></p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Wanderly. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

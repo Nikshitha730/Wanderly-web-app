@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #FF6F61, #FFB6C1);
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #fcb69f, #ffecd2);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.hero-text button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background: #ff4500;
+}
+
+/* Destinations */
+.destinations {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.destinations h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FF4500;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Planner */
+.planner {
+  background: linear-gradient(135deg, #6DD5FA, #ffffff);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.planner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #6DD5FA;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background: #6DD5FA;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0084ff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(45deg, #FF6F61, #FFB6C1);
+  color: white;
+  font-size: 0.9rem;
+}
