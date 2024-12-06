@@ -22,6 +22,8 @@ Plan Your Trip:
 Fill out the travel planner form with your desired destination and travel date.
 Submit the form to see your personalized plan.
 Check out the images of the website
+Video Demo:
+https://youtu.be/2TYdZJm5_5s?si=MdFA9F1p0FpS2Q35
 Hero Section:
 ![Screenshot (2)](https://github.com/user-attachments/assets/c993d667-b310-44b1-bcf6-f09b4edc9da6)
 Top Destinations:
